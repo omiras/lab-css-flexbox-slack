@@ -79,7 +79,7 @@ button {
 .hero__title {
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 3rem;
     font-weight: 700;
 }
@@ -246,4 +246,56 @@ footer small {
 .container-90 {
     width: 90vw;
     margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .hero__title,
+    .hero__description {
+        text-align: left;
+    }
+
+    .hero > div {
+        width: 50%;
+    }
+
+    .hero button {
+        width: 50%;
+    }
+
+    .screenshot {
+        transform: translateX(20vw);
+    }
+
+   
+    .teams__statistics {
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 786px;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .menu-links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social {
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+    .welcome button {
+        width: 80%;
+    }
+
+    hr {
+        display: none;
+    }
 }

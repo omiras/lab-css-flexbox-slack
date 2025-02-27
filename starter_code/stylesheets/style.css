@@ -101,6 +101,7 @@ button {
     color: var(--bg-purple)
 }
 
+
 .button-signup-google{
     background-color: var(--btn-blue);
     color: white;
@@ -149,8 +150,9 @@ button {
 
 .companies__logos img {
     /* Por algún motivo me ha quededo mejor estableciendo el máximo de la altura en vez del width */
-    max-height: 40px;
+    height: 40px;
 }
+
 
 /* Teams */
 .teams {
@@ -183,6 +185,8 @@ button {
         font-size: 2.5rem;
     }
 }
+
+
 
 
 
